@@ -3,6 +3,8 @@ package ru.netology.web;
 import com.codeborne.selenide.SelenideElement;
 import org.junit.jupiter.api.Test;
 
+import java.time.Duration;
+
 import static com.codeborne.selenide.Condition.exactText;
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
