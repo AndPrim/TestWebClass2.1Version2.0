@@ -21,7 +21,6 @@ public class CreditCardTest {
         form.$("[data-test-id=agreement]").click();
         form.$("button.button").click();
         $("[data-test-id=order-success]").shouldHave(exactText("Ваша заявка успешно отправлена! Наш менеджер свяжется с вами в ближайшее время."));
-        Thread.sleep(10000);
     }
 
 }
