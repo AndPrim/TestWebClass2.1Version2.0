@@ -24,6 +24,7 @@ jobs:
       - name: build with gradle
         # запускаем автотесты
         # для проектов на базе selenide необходимо добавить параметр для запуска браузера
-        # в headless режиме -dselenide.headless=true, параметр --info должен остаться
-
-        run: dselenide.headless=true --info
+        # в headless режиме -Dselenide.headless=true, параметр --info должен остаться
+        -Dselenide:
+          headless=true:
+        run: ./gradlew test --info
