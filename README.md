@@ -1,0 +1,1 @@
+[![Java CI with Gradle](https://github.com/AndPrim/TestWebClass2.1Version2.0/actions/workflows/gradle.yml/badge.svg)](https://github.com/AndPrim/TestWebClass2.1Version2.0/actions/workflows/gradle.yml)
