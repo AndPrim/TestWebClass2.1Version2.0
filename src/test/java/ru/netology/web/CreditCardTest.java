@@ -12,8 +12,7 @@ import static com.codeborne.selenide.Selenide.open;
 public class CreditCardTest {
 
     @Test
-    public void openShouidTest() throws InterruptedException {
-//        System.setProperty("selenide.headless", "true");
+    void openShouidTest() {
         open("http://localhost:9999/");
         SelenideElement form = $("form");
         form.$("[data-test-id=name] input").setValue("Иванов Иван");
